@@ -1,12 +1,8 @@
 .itemContainer > a, .itemContainer > span {
-    color: #fff; 
+    color: #000; 
     font-size: 16px;
     font-weight: 500;
-}
-
-.container {
-    background-color: #000;
-    display: block;
+    margin: 0 15px;
 }
 
 div.itemContainer {
@@ -15,6 +11,29 @@ div.itemContainer {
 
 .firstLevelLink {
     font-size: 16px;
+}
+
+@media screen and (min-width: 40rem) {
+
+    .container > section > ul {
+        display: inline-block;
+    }
+
+    .container > section {
+        text-align: left;
+        display: block;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .itemContainer {
+        position: relative;
+        top: 8px;
+        display: inline-block;
+    }
+
 }
 
 @media screen and (max-width: 40rem) {

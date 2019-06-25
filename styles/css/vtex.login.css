@@ -4,5 +4,9 @@
 
 .container [class*="gray"], .buttonLink div[class*="gray"]  {
     color: #000;
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: none;
+    padding: 0;
 }
 

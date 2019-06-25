@@ -11,3 +11,11 @@
 .container [class*="sliderFrame"] > li {
     padding: 10px;
 }
+
+.arrowRight {
+    right: -30px;
+}
+
+.arrowLeft {
+    left: -30px;
+}
