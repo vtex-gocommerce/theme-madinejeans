@@ -2,10 +2,10 @@
   "store.home": {
     "blocks": [
       "carousel#home",
+      "search-result#home",
       "flex-layout.row#carousel",
-      "shelf#home2",
-      "flex-layout.row#tarja",
       "shelf#home",
+      "flex-layout.row#tarja",
       "newsletter"
     ]
   },
@@ -19,7 +19,8 @@
     ],
     "props": {
       "pagination": "show-more",
-      "blockClass": "home"
+      "blockClass": "home",
+      "maxItemsPerPage": 8  
     }
   },
 
@@ -152,6 +153,7 @@
       "logo",
       "category-menu#header",
       "header-spacer",
+      "header-spacer",
       "search-bar",
       "header-spacer",
       "login",
@@ -164,8 +166,8 @@
   },
   "category-menu#header": {
     "props": {
-      "menuDisposition": "left",
-      "showAllDepartments": false
+      "showAllDepartments": false,
+      "menuDisposition": "left"
     }
   },
   "login": {
@@ -390,7 +392,7 @@
 
   "drawer": {
     "children": [
-      "category-menu"
+      "category-menu#header"
     ]
   },
 
@@ -678,10 +680,9 @@
     ]
   },
   "footer-layout.desktop": {
-    "children": [
+    "children": [ 
       "footer-row#1-desktop",
-      "footer-row#2-desktop",
-      "footer-row#3-desktop"
+      "footer-row#2-desktop"
     ]
   },
   "footer-row#1-desktop": {
@@ -901,8 +902,6 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#clothing",
-      "menu-item#shorts",
       "menu-item#tank-tops",
       "menu-item#shirts",
       "menu-item#sweatshirt",
@@ -1013,20 +1012,8 @@
     "props": {
       "socialNetworks": [
         {
-          "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
-        },
-        {
           "name": "Instagram",
-          "url": "https://www.instagram.com/vtextruecloud/"
-        },
-        {
-          "name": "Twitter",
-          "url": "https://twitter.com/vtexonline"
-        },
-        {
-          "name": "Youtube",
-          "url": "https://www.youtube.com/user/VTEXTV"
+          "url": "https://www.instagram.com/madinejeans/"
         }
       ]
     }
@@ -1034,10 +1021,17 @@
 
   "footer-row#2-desktop": {
     "children": [
-      "accepted-payment-methods"
+      "accepted-payment-methods",
+      "footer-spacer",
+      "powered-by"
     ],
     "props": {
       "blockClass": "payment-methods"
+    }
+  },
+  "powered-by": {
+    "props": {
+      "showInColor": true
     }
   },
   "accepted-payment-methods": {
@@ -1048,6 +1042,7 @@
     }
   },
 
+  
   "footer-row#3-desktop": {
     "children": [
       "rich-text#footer"
@@ -1065,15 +1060,15 @@
 
   "footer-layout.mobile": {
     "children": [
+      "footer-row#2-mobile",
       "footer-row#1-mobile",
-      "footer-row#2-mobile"
+      "footer-row#4-mobile",
+      "footer-row#3-mobile"
     ]
   },
   "footer-row#1-mobile": {
     "children": [
-      "accepted-payment-methods",
-      "footer-spacer",
-      "social-networks"
+      "accepted-payment-methods"
     ],
     "props": {
       "blockClass": "payment-methods"
@@ -1081,10 +1076,26 @@
   },
   "footer-row#2-mobile": {
     "children": [
-      "rich-text#footer-mobile"
+      "vtex.menu@2.x:menu#Products"
     ],
     "props": {
-      "blockClass": "credits"
+      "blockClass": "cat"
+    }
+  },
+  "footer-row#3-mobile": {
+    "children": [
+      "powered-by"
+    ],
+    "props": {
+      "blockClass": "powered-by"
+    }
+  },
+  "footer-row#4-mobile": {
+    "children": [
+      "social-networks"
+    ],
+    "props": {
+      "blockClass": "social"
     }
   },
   "rich-text#footer-mobile": {

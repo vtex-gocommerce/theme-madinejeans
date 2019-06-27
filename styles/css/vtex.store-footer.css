@@ -3,7 +3,7 @@
 }
 
 .row {
-    padding: 20px 0;
+    padding: 40px 0;
 }
 
 .listTitle {
@@ -53,10 +53,22 @@
     background-color: #000;
 }
 
+.footerLayout {
+    padding-bottom: 50px;
+}
+
+.footerLayout [class*="styledLinkContainer"] {
+    margin: 0 50px 0 0;
+}
+
 @media screen and (max-width: 40rem) {
     .accordion [class*="collapse"] {
         height: auto!important;
         text-align: center;
+    }
+
+    .poweredBy {
+        margin: auto;
     }
 
     .listContainer {
@@ -78,4 +90,21 @@
     .listItem {
         display: inline-block;
     }
+
+    .row--cat [class*="menuItem"] {
+        margin: auto;
+    }
+
+    .rowContainer > nav, .acceptedPaymentMethodContainer, .rowContainer > div {
+        margin: auto;
+    }
+
+    .footerLayout [class*="styledLinkContainer"] {
+        margin: 0;
+    }
+
+    .row {
+        padding: 20px 0;
+    }
+
 }

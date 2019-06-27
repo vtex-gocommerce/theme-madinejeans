@@ -13,7 +13,7 @@ div.itemContainer {
     font-size: 16px;
 }
 
-@media screen and (min-width: 40rem) {
+/*@media screen and (min-width: 40rem) {
 
     .container > section > ul {
         display: inline-block;
@@ -34,7 +34,7 @@ div.itemContainer {
         display: inline-block;
     }
 
-}
+} */ 
 
 @media screen and (max-width: 40rem) {
     .itemContainer {
@@ -50,6 +50,7 @@ div.itemContainer {
 
     .container {
         background: #fff;
+        display: block;
     }
 
     .itemContainer > span, .itemContainer > a {
