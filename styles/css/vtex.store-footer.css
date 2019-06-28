@@ -21,6 +21,10 @@
     color: #d8d8d8;
 }
 
+.footerLayout {
+    border-top: 1px solid #d8d8d8;
+}
+
 .textInformation {
     width: 100%;
     padding: 10px 0;

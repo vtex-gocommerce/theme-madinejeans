@@ -85,4 +85,8 @@ div.itemContainer {
     div.itemContainer > section > ul > li > ul {
         padding: 0;
     }
+    
+    .container > section > ul > li > [class*="itemContainer"] {
+        display: block!important;
+    }
 }

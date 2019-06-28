@@ -2,6 +2,7 @@
   "store.home": {
     "blocks": [
       "carousel#home",
+      "rich-text#categoryTitle",
       "search-result#home",
       "flex-layout.row#carousel",
       "shelf#home",
@@ -167,7 +168,8 @@
   "category-menu#header": {
     "props": {
       "showAllDepartments": false,
-      "menuDisposition": "left"
+      "menuDisposition": "left",
+      "orientation": "vertical"
     }
   },
   "login": {
@@ -688,9 +690,6 @@
   "footer-row#1-desktop": {
     "children": [
       "vtex.menu@2.x:menu#Products",
-      "vtex.menu@2.x:menu#footer-clothing",
-      "vtex.menu@2.x:menu#footer-decoration",
-      "vtex.menu@2.x:menu#footer-bags",
       "footer-spacer",
       "social-networks"
     ],
@@ -712,7 +711,7 @@
   },
   "menu-item#news": {
     "props": {
-      "id": "menu-item-news",
+      "id": "menu-item-about-us",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -720,14 +719,14 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "News",
-        "text": "News"
+        "tagTitle": "Quem Somos",
+        "text": "Quem Somos"
       }
     }
   },
   "menu-item#blackfriday": {
     "props": {
-      "id": "menu-item-black-friday",
+      "id": "menu-item-how-to-buy",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -735,14 +734,14 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "BlackFriday",
-        "text": "Black Friday"
+        "tagTitle": "Como Comprar",
+        "text": "Como Comprar"
       }
     }
   },
   "menu-item#sale": {
     "props": {
-      "id": "menu-item-sale",
+      "id": "menu-item-policy",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -750,14 +749,14 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Sale",
-        "text": "Sale"
+        "tagTitle": "Política de Trocas e Devoluções",
+        "text": "Política de Trocas e Devoluções"
       }
     }
   },
   "menu-item#personalization": {
     "props": {
-      "id": "menu-item-personalization",
+      "id": "menu-item-contact",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -765,8 +764,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Personalization",
-        "text": "Personalization"
+        "tagTitle": "Contato",
+        "text": "Contato"
       }
     }
   },
@@ -1014,6 +1013,10 @@
         {
           "name": "Instagram",
           "url": "https://www.instagram.com/madinejeans/"
+        },
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/Madine-jeans-400328800823539/"
         }
       ]
     }
@@ -1320,7 +1323,7 @@
         "labelSellingPrice": null,
         "showListPrice": true,
         "showLabels": true,
-        "showInstallments": false,
+        "showInstallments": true,
         "showSavings": false,
         "name": {
           "showBrandName": false,

@@ -9,7 +9,16 @@
 }
 
 .container [class*="paragraph"] {
-    font-size: 24px;
+    font-size: 30px;
+    color: #000;
     font-weight: normal;
     margin: 40px 0 0;
+    position: relative;
+    bottom: -20px;
+}
+
+@media screen and (max-width: 40rem) {
+    .container [class*="paragraph"] {
+        bottom: 0;
+    }
 }
