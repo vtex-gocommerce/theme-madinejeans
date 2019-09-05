@@ -1,7 +1,7 @@
 {
   "vendor": "gc-jqu0734",
   "name": "madinejeans-theme",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "title": "Madine Jeans Theme",
   "builders": {
     "styles": "1.x",
