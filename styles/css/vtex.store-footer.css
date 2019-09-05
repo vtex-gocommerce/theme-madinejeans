@@ -12,6 +12,10 @@
     color: #fff;
 }
 
+.row--menu-row .rowContainer {
+    align-items: flex-start;
+}
+
 .footer {
     background-color: #000; 
     margin-top: 0;

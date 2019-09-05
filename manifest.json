@@ -12,7 +12,9 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
+    "gocommerce.store-components": "1.x",
     "gocommerce.institutional-page": "1.x",
+    "gocommerce.content-menu": "0.x",
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
     "vtex.store-footer": "2.x",

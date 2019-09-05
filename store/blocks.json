@@ -689,7 +689,7 @@
   },
   "footer-row#1-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#Products",
+      "menu.content",
       "footer-spacer",
       "social-networks"
     ],
@@ -1079,7 +1079,7 @@
   },
   "footer-row#2-mobile": {
     "children": [
-      "vtex.menu@2.x:menu#Products"
+      "menu.content"
     ],
     "props": {
       "blockClass": "cat"
@@ -1239,6 +1239,12 @@
     "props": {
       "content": ""
     }
+  },
+  "store.content": {
+    "children": ["flex-layout.row#content-body"]
+  },
+  "flex-layout.row#content-body": {
+    "children": ["rich-text"]
   },
 
 
