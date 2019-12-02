@@ -58,7 +58,7 @@
           "base": "#ffffff",
           "base--inverted": "#3f3f40",
           "action-primary": "#000",
-          "action-secondary": "#eef3f7",
+          "action-secondary": "rgba(0,0,0,.0)",
           "emphasis": "#000",
           "disabled": "#f2f4f5",
           "success": "#8bc34a",
@@ -75,7 +75,7 @@
         },
         "hover-background": {
           "action-primary": "#000",
-          "action-secondary": "#dbe9fd",
+          "action-secondary": "rgba(0,0,0,.0)",
           "emphasis": "#dd1659",
           "success": "#8bc34a",
           "success--faded": "#eafce3",
@@ -91,7 +91,7 @@
         },
         "active-background": {
           "action-primary": "#000",
-          "action-secondary": "#dbe9fd",
+          "action-secondary": "rgba(0,0,0,.0)",
           "emphasis": "#dd1659",
           "success": "#8bc34a",
           "success--faded": "#eafce3",
@@ -106,8 +106,8 @@
           "muted-5": "#f2f4f5"
         },
         "text": {
-          "action-primary": "#000",
-          "action-secondary": "#eef3f7",
+          "action-primary": "#337ee2",
+          "action-secondary": "#d8d8d8",
           "link": "#0F3E99",
           "emphasis": "#000",
           "disabled": "#979899",
@@ -128,7 +128,7 @@
         },
         "hover-text": {
           "action-primary": "#000",
-          "action-secondary": "#dbe9fd",
+          "action-secondary": "rgba(0,0,0,.0)",
           "link": "#000",
           "emphasis": "#dd1659",
           "success": "#8bc34a",
@@ -150,7 +150,7 @@
         },
         "border": {
           "action-primary": "#000",
-          "action-secondary": "#eef3f7",
+          "action-secondary": "#999",
           "emphasis": "#000",
           "disabled": "#e3e4e6",
           "success": "#8bc34a",
@@ -167,7 +167,7 @@
         },
         "hover-border": {
           "action-primary": "#000",
-          "action-secondary": "#dbe9fd",
+          "action-secondary": "#000",
           "emphasis": "#dd1659",
           "success": "#8bc34a",
           "success--faded": "#eafce3",
@@ -183,7 +183,7 @@
         },
         "active-border": {
           "action-primary": "#000",
-          "action-secondary": "#dbe9fd",
+          "action-secondary": "rgba(0,0,0,.0)",
           "emphasis": "#dd1659",
           "success": "#8bc34a",
           "success--faded": "#eafce3",
@@ -201,7 +201,7 @@
           "base": "#3f3f40",
           "base--inverted": "#ffffff",
           "action-primary": "#ffffff",
-          "action-secondary": "#0F3E99",
+          "action-secondary": "#000",
           "emphasis": "#ffffff",
           "disabled": "#979899",
           "success": "#ffffff",
@@ -218,7 +218,7 @@
         },
         "hover-on": {
           "action-primary": "#ffffff",
-          "action-secondary": "#0F3E99",
+          "action-secondary": "#000",
           "emphasis": "#ffffff",
           "success": "#ffffff",
           "success--faded": "#3f3f40",
