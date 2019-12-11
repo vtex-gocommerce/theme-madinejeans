@@ -21,7 +21,7 @@
     "props": {
       "pagination": "show-more",
       "blockClass": "home",
-      "maxItemsPerPage": 8  
+      "maxItemsPerPage": 8
     }
   },
 
@@ -152,7 +152,7 @@
   "header-row#4-desktop": {
     "children": [
       "logo",
-      "category-menu#header",
+      "menu.custom#header",
       "header-spacer",
       "header-spacer",
       "search-bar",
@@ -165,7 +165,7 @@
       "blockClass": "main-header"
     }
   },
-  "category-menu#header": {
+  "menu.custom#header": {
     "props": {
       "showAllDepartments": false,
       "menuDisposition": "left",
@@ -201,7 +201,7 @@
   },
   "header-row#5-desktop": {
     "children": [
-      "category-menu"
+      "menu.custom"
     ],
     "props": {
       "sticky": false,
@@ -394,7 +394,7 @@
 
   "drawer": {
     "children": [
-      "category-menu#header"
+      "menu.custom#header"
     ]
   },
 
@@ -432,7 +432,7 @@
 
   "flex-layout.row#carousel": {
     "children": [
-      "carousel#mini1", 
+      "carousel#mini1",
       "carousel#mini2"
     ],
     "props": {
@@ -673,8 +673,8 @@
 
 
 
-  
-  
+
+
   "footer": {
     "blocks": [
       "footer-layout.desktop",
@@ -682,7 +682,7 @@
     ]
   },
   "footer-layout.desktop": {
-    "children": [ 
+    "children": [
       "footer-row#1-desktop",
       "footer-row#2-desktop"
     ]
@@ -1045,7 +1045,7 @@
     }
   },
 
-  
+
   "footer-row#3-desktop": {
     "children": [
       "rich-text#footer"
@@ -1341,4 +1341,3 @@
     }
   }
 }
-
